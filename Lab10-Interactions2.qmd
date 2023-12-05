@@ -178,7 +178,9 @@ With the way we have rs and partner coded in the model, the regression coefficie
 
 ```
 
-> Switch how the interaction is visualized by switching the order of terms.
+> Switch how the interaction is visualized by switching the order of terms
+
+> **Question:** How would you describe in a paper what the significant interaction effect means?
 
 ```{r}
 ## your code here
@@ -203,4 +205,4 @@ With the way we have rs and partner coded in the model, the regression coefficie
 
 # Reporting results
 
-> Write-up the results from the ANOVA analysis in APA style. Focus on one of the simple effects interpretations from above.
+> Write-up the results from the ANOVA analysis in APA style. Focus on one of the simple effect directions from above (they are equivalent so pick one that makes most sense)
