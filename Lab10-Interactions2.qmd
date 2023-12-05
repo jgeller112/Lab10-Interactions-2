@@ -31,7 +31,7 @@ Based on subjects' self-reports of rejection sensitivity (N = 80), a researcher 
 
 **Dependent Variable: Perceived Liking**
 
-# Import & inspect the Data
+# Import & inspect the data
 
 ```{r}
 #load packages
@@ -50,7 +50,7 @@ reject <- read.csv("https://raw.githubusercontent.com/uopsych/psy612/master/labs
 
 ```
 
--   Notice that by default R orders factor levels alphabetically. In our case, this means that `High` will be the reference group of rejection sensitivity and `Happy` will be the reference group of interaction partner's emotional expression. However, it might be more intuitive to have `Low` and `Neutral` be the reference groups, respectively.
+- Notice that by default R orders factor levels alphabetically. In our case, this means that `High` will be the reference group of rejection sensitivity and `Happy` will be the reference group of interaction partner's emotional expression. However, it might be more intuitive to have `Low` and `Neutral` be the reference groups, respectively.
 
 > Reorder the levels
 
@@ -60,7 +60,7 @@ reject <- read.csv("https://raw.githubusercontent.com/uopsych/psy612/master/labs
 
 # Descriptive Statistics
 
-- What is the sample size per condition?
+- How many Ps are there  per condition?
 
 ```{r}
 
@@ -80,9 +80,9 @@ The results of a factorial ANOVA are often represented in a table of means, whic
 
 ```
 
-> **Question:**Which means are being compared in the main effect of rejection sensitivity?
+> **Question:** Which means are being compared in the main effect of rejection sensitivity?
 
-> **Question:**Which means are being compared in the main effect of interaction partner?
+> **Question:** Which means are being compared in the main effect of interaction partner?
 
 > **Question:**Which means are involved in the interaction?
 
@@ -96,7 +96,7 @@ The results of a factorial ANOVA are often represented in a table of means, whic
 ## your code here
 ```
 
-> Interpret each of the regression coeficients
+> Interpret each of the regression coefficients
 
 ### Recoding
 
@@ -118,7 +118,8 @@ With the way we have rs and partner coded in the model, the regression coefficie
 ## your code here
 ```
 
-> Interpret the new model coefs
+> Interpret the new model coefficients
+
 
 ## Using Traditional ANOVA: `afex`
 
@@ -132,9 +133,9 @@ With the way we have rs and partner coded in the model, the regression coefficie
 
 > **Question:** What type of sums of squares does `aov_ez` use?
 
-# Effect Sizes
+# Effect sizes
 
-> What are the effect sizes for each main effect and interaction. Are they small, medium, or large?
+> What are the effect sizes for each main effect and interaction. For each effect, is it small, medium, or large?
 
 ```{r}
 ## your code here
@@ -150,25 +151,37 @@ With the way we have rs and partner coded in the model, the regression coefficie
 
 # Visualization
 
+- use `ggplot2` to create nice figures of the main effects and interaction  
+
 ## Main effects
 
-### Plotting the Main Effect of Rejection Sensitivity
+### Plotting the main effect of rejection sensitivity
 
 ```{r}
+## your code here
 
 ```
 
-### Plotting the Main Effect of Partner's Emotional Expression
+### Plotting the main effect of partner's emotional expression
 
 ```{r}
+## your code here
 
 ```
 
 ## Interaction
 
-### Plotting the Interaction Effect
+### Plotting the interaction effect
 
 ```{r}
+## your code here
+
+```
+
+> Switch how the interaction is visualized by switching the order of terms.
+
+```{r}
+## your code here
 
 ```
 
@@ -190,4 +203,4 @@ With the way we have rs and partner coded in the model, the regression coefficie
 
 # Reporting results
 
-> Write-up the results from the ANOVA analysis
+> Write-up the results from the ANOVA analysis in APA style. Focus on one of the simple effects interpretations from above.
